@@ -1,0 +1,116 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*side nav*/
+
+/*******/
+#navbar{
+      position: fixed;
+      z-index: 100;
+}
+
+nav {
+      width: 100%;
+      line-height: 30px;
+      background: rgba(0, 0, 0, 0);
+      
+}
+
+.logo {
+      text-decoration: none;
+      line-height: 30px;
+      position: fixed;
+      float: left;
+      margin: 10px 46px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+.navbar-items {
+      line-height: 30px;
+      float: right;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: rgb(0, 0, 0);
+      text-align: right;
+      margin: 0;
+      font-size: 16px;
+      transition: 1s;
+}
+
+.pc-view {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      margin-right: 20px;
+}
+
+nav.black ul {
+      background: #202020;
+}
+
+nav.black li, nav.black a {
+      color: rgb(255, 255, 255);
+}
+
+nav.black .pc-view-lang {
+      color: rgb(255, 255, 255);
+}
+.menu-icon {
+     display: none;
+}
+
+.menu .pc-view-lang {
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+}
+
+@media screen and (max-width:700px) {
+  .menu .pc-view {
+    float: none;
+    display: none;
+    text-align: left;
+  }
+  .menu-icon {
+     display: inline-block;
+}
+}
