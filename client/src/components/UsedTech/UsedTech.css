@@ -1,0 +1,15 @@
+.tech {
+  text-align: center;
+  margin: 20px;
+}
+.tech-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.tech-item{
+    padding: 20px 40px;
+    font-weight: bold;
+}
