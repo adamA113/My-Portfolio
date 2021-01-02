@@ -22,12 +22,12 @@ const UsedTech = () => {
 
                 <div className="tech-item">
                     <img src="https://img.icons8.com/color/48/000000/javascript.png" />
-                    <p>Javascript</p>
+                    <p>JavaScript</p>
                 </div>
 
                 <div className="tech-item">
                     <img src="https://img.icons8.com/color/48/000000/typescript.png" />
-                    <p>Typescript</p>
+                    <p>TypeScript</p>
                 </div>
 
                 <div className="tech-item">
