@@ -12,11 +12,11 @@ $(window).on("scroll", function () {
 
 const Navbar = () => {
     const openClick = () => {
-        $("#mySidenav").css({"width": "200px"});
+        $("#mySidenav").css({ "width": "200px" });
     }
-    const closeClick = (e:any) => {
+    const closeClick = (e: any) => {
         e.preventDefault();
-        $("#mySidenav").css({ "width": "0px"});
+        $("#mySidenav").css({ "width": "0px" });
 
     }
     return (
@@ -34,15 +34,21 @@ const Navbar = () => {
             <div>
                 <a href="/" className="logo">Yasir</a>
             </div>
-            
+
             <div className="navbar-items">
                 <a className="pc-view" href="#">Home</a>
                 <a className="pc-view" href="#">Projects</a>
                 <a className="pc-view" href="/contact">Contact</a>
                 <a className="pc-view" href="#">About</a>
+                
+                <div className="toggle-container">
+                    <input type="checkbox" />
+                    <div className="slider round"></div>
+                </div>
             </div>
+
         </nav>
-      );
+    );
 }
- 
-export default Navbar ;
+
+export default Navbar;
