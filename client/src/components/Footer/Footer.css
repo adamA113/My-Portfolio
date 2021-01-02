@@ -1,8 +1,37 @@
-.footer{
-    display:grid;
-    grid-template-columns: auto auto;
-    position: fixed;
-    width: 100%;
-     bottom: 0;
+.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* position: sticky; */
+  width: 100%;
+  bottom: 0;
+  color: white;
+  background-color: black;
+}
 
+.bio {
+  margin: 10px 30px;
+}
+
+.copyright {
+  font-size: 10px;
+  margin: 20px 30px
+}
+
+.fot-item {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: white;
+}
+.main-items {
+  margin: 10px;
+}
+
+.soc-icon {
+  margin: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    grid-template-columns: auto;
+  }
 }
