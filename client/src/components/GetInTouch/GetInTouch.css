@@ -1,0 +1,31 @@
+#query {
+  width: 100%;
+  margin: 20px;
+}
+
+#query-form {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  padding: 30px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#query-form input, #query-form textarea {
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 1em;
+  width: 100%;
+}
+
+#query-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+#message {
+  overflow: auto;
+  resize: vertical;
+}
