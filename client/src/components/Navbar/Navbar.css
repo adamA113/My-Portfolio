@@ -2,7 +2,7 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1000;
+  z-index: 101;
   top: 0;
   left: 0;
   background-color: #111;
@@ -31,86 +31,83 @@
   font-size: 36px;
   margin-left: 50px;
 }
+.sidenav-logo {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  font-size: 30px;
+}
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 /*side nav*/
 
 /*******/
-#navbar{
-      position: fixed;
-      z-index: 100;
-}
-
-nav {
-      width: 100%;
-      line-height: 30px;
-      background: rgba(0, 0, 0, 0);
-      
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  line-height: 30px;
+  background-color: #cfdee9;
 }
 
 .logo {
-      text-decoration: none;
-      line-height: 30px;
-      position: fixed;
-      float: left;
-      margin: 10px 46px;
-      color: rgb(0, 0, 0);
-      font-weight: bold;
-      font-size: 20px;
-      letter-spacing: 2px;
+  text-decoration: none;
+  line-height: 30px;
+  display: inline-block;
+  margin: 10px 46px;
+  color: #ff6984;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .navbar-items {
-      line-height: 30px;
-      float: right;
-      background: rgba(0, 0, 0, 0);
-      overflow: hidden;
-      color: rgb(0, 0, 0);
-      text-align: right;
-      margin: 0;
-      font-size: 16px;
-      transition: 1s;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* background: rgba(0, 0, 0, 0); */
+  color: rgb(0, 0, 0);
+  text-align: right;
+  font-size: 16px;
+  transition: 1s;
 }
 
 .pc-view {
-      display: inline-block;
-      padding: 10px 20px;
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      font-size: 16px;
-      margin-right: 20px;
-}
-
-nav.black ul {
-      background: #202020;
-}
-
-nav.black li, nav.black a {
-      color: rgb(255, 255, 255);
-}
-
-nav.black .pc-view-lang {
-      color: rgb(255, 255, 255);
+  /* display: inline-block; */
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin-right: 20px;
 }
 .menu-icon {
-     display: none;
+  display: none;
 }
 
-.menu .pc-view-lang {
-      color: rgb(0, 0, 0);
-      font-size: 16px;
-}
-
-@media screen and (max-width:700px) {
-  .menu .pc-view {
-    float: none;
+@media screen and (max-width: 700px) {
+  .navbar-items {
     display: none;
-    text-align: left;
   }
   .menu-icon {
-     display: inline-block;
+    display: inline-block;
+  }
+  .menu-icon:hover {
+    cursor: pointer;
+  }
 }
+
+.black {
+      background: #fff;
 }
+
+
+

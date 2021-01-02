@@ -1,27 +1,44 @@
- 
- import './Navbar.css';
- const Navbar = () => {
-    const handleClick = () =>{
+import { Link, Redirect } from 'react-router-dom';
+import './Navbar.css';
+const $ = require('jquery');
+
+$(window).on("scroll", function () {
+    if ($(window).scrollTop()) {
+        $("nav").addClass("black");
+    } else {
+        $("nav").removeClass("black");
+    }
+});
+
+const Navbar = () => {
+    const openClick = () => {
+        $("#mySidenav").css({"width": "200px"});
+    }
+    const closeClick = (e:any) => {
+        e.preventDefault();
+        $("#mySidenav").css({ "width": "0px"});
 
     }
-     const closeClick = () => {
-
-     }
     return (
         <nav className="navbar">
-            <span className="menu-icon" onClick={handleClick}>
+            <div className="menu-icon" onClick={openClick}>
                 <i className="fa fa-bars fa-2x"></i>
-            </span>
-            <span id="mySidenav" className="sidenav">
+            </div>
+            <div id="mySidenav" className="sidenav">
+                <a href="/" className="sidenav-logo">Yasir</a>
                 <a href="/" className="closebtn" onClick={closeClick}>&times;</a>
-                <a href="#">About</a>
                 <a href="#">Project</a>
-                <a href="#">Contact</a>
-            </span>
-            <a href="#default" className="logo">Yasir</a>
+                <a href="/contact">Contact</a>
+                <a href="#">About</a>
+            </div>
+            <div>
+                <a href="/" className="logo">Yasir</a>
+            </div>
+            
             <div className="navbar-items">
                 <a className="pc-view" href="#">Home</a>
-                <a className="pc-view" href="#">Contact</a>
+                <a className="pc-view" href="#">Projects</a>
+                <a className="pc-view" href="/contact">Contact</a>
                 <a className="pc-view" href="#">About</a>
             </div>
         </nav>
