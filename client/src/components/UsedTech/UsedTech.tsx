@@ -31,6 +31,11 @@ const UsedTech = () => {
                 </div>
 
                 <div className="tech-item">
+                    <img src="https://img.icons8.com/color/50/000000/c-plus-plus-logo.png" />
+                    <p>C++</p>
+                </div>
+
+                <div className="tech-item">
                     <img src="https://img.icons8.com/color/48/000000/python.png" />
                     <p>Python</p>
                 </div>
@@ -66,14 +71,14 @@ const UsedTech = () => {
                 </div>
 
                 <div className="tech-item">
-                    <img src="https://i.imgur.com/ri2cvJd.png" style={{"width": "48px", "height": "48px"}} />
+                    <img src="https://img.icons8.com/color/48/000000/docker.png" />
                     <p>Docker</p>
                 </div>
 
-                <div className="tech-item">
+                {/* <div className="tech-item">
                     <img src="https://img.icons8.com/color/48/000000/kubernetes.png" />
                     <p>kubernetes</p>
-                </div>
+                </div> */}
 
                 <div className="tech-item">
                     <img src="https://img.icons8.com/color/48/000000/heroku.png" />
