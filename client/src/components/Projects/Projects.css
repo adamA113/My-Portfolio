@@ -1,0 +1,20 @@
+.project-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  border: 1px solid #eaecef;
+  margin: 20px 0;
+}
+
+.project-info {
+  text-align: center;
+  border: 1px solid #eaecef;
+  margin: 20px auto;
+  border-radius: 20px;
+  width: 500px;
+}
+
+.project-disc {
+  width: 460px;
+  margin: 10px;
+}
