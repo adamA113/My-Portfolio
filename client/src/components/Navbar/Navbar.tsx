@@ -4,10 +4,34 @@ const $ = require('jquery');
 
 $(window).on("scroll", function () {
     if ($(window).scrollTop()) {
-        $("nav").addClass("black");
+        $("nav").addClass("white");
     } else {
-        $("nav").removeClass("black");
+        $("nav").removeClass("white");
     }
+});
+
+$(document).ready(function () {
+    if (localStorage.getItem("theme") === "dark") {
+        $(':root').addClass("dark");
+        $('#dark-mode').prop("checked", true);
+    }
+    else{
+        $(':root').removeClass("dark");
+        $('#dark-mode').prop("checked", false);
+    }
+
+    $('#dark-mode').on("change", function () {
+        // console.log("jiji")
+        $(':root').toggleClass('dark');
+        if ($(':root').hasClass("dark")) {
+            localStorage.setItem("theme", 'dark');
+            $('#dark-mode').prop("checked", true);
+        }
+        else{
+            localStorage.setItem("theme", 'light');
+            $('#dark-mode').prop("checked", false);
+        }
+    });
 });
 
 const Navbar = () => {
@@ -27,22 +51,23 @@ const Navbar = () => {
             <div id="mySidenav" className="sidenav">
                 <a href="/" className="sidenav-logo">Yasir</a>
                 <a href="/" className="closebtn" onClick={closeClick}>&times;</a>
-                <a href="#">Project</a>
+                <a href="/tech">Tech.</a>
+                <a href="/projects">Project</a>
                 <a href="/contact">Contact</a>
-                <a href="#">About</a>
+                <a href="/about">About</a>
             </div>
-            <div>
+            <div className="logo-container">
                 <a href="/" className="logo">Yasir</a>
             </div>
 
             <div className="navbar-items">
-                <a className="pc-view" href="#">Home</a>
-                <a className="pc-view" href="#">Projects</a>
+                <a className="pc-view" href="/tech">Tech.</a>
+                <a className="pc-view" href="/projects">Projects</a>
                 <a className="pc-view" href="/contact">Contact</a>
-                <a className="pc-view" href="#">About</a>
-                
+                <a className="pc-view" href="/about">About</a>
+
                 <div className="toggle-container">
-                    <input type="checkbox" />
+                    <input type="checkbox" id="dark-mode" />
                     <div className="slider round"></div>
                 </div>
             </div>
