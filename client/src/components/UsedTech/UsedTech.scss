@@ -1,10 +1,11 @@
+@import "../../index";
+
 .tech {
   text-align: center;
+  h3{
+    padding-top: 15px;
+  }
 }
-.tech h3 {
-  padding-top: 15px;
-}
-
 .tech-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -21,12 +22,12 @@
   .tech-container {
     grid-template-columns: auto auto auto;
   }
-
   .tech-item {
     padding: 10px 20px;
   }
 }
+
 .dark .tech {
-  background-color: #06090F;
-  color: #C9D1D9;
+  background-color: $background-color ;
+  color: $text-color-dark;
 }
