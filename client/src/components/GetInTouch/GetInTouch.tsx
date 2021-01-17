@@ -11,7 +11,7 @@ const GetInTouch = () => {
                 <h3>Get In Touch</h3>
                 <br />
                 <div className="column">
-                    <label htmlFor="username" >User Name:</label>
+                    <label htmlFor="username" >Name:</label>
                     <input type="text" className="text" id="username" name="username" />
                     <div className="username error" ></div>
 
@@ -26,7 +26,7 @@ const GetInTouch = () => {
                     <textarea className="text" id="message" name="message"></textarea>
                 </div>
                 <br />
-                <button className="button">Send Enquiry</button><br />
+                <button className="query-btn">Send Enquiry</button><br />
             </form>
         </div>
      );
