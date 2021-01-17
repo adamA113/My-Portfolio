@@ -22,12 +22,11 @@
   margin: 0px 20px;
   text-decoration: none;
   color: #000;
+  &:hover {
+    text-decoration: none;
+    color: lighten(#ff6984, 10);
+  }
 }
-.fot-item:hover {
-  text-decoration: none;
-  color: #ff9cae;
-}
-
 .main-items {
   margin: 10px;
 }
@@ -42,15 +41,19 @@
     grid-template-columns: auto;
   }
 }
-.dark .footer {
-  color: #c9d1d9;
-  background-color: #000;
-  border-top: 1px solid #21262d;
-}
-.dark .fot-item {
-  color: #c9d1d9;
-}
-.dark .fot-item:hover {
-  text-decoration: none;
-  color: #ff9cae;
+
+.dark {
+  .footer {
+    color: #c9d1d9;
+    background-color: #000;
+    border-top: 1px solid #21262d;
+  }
+  .fot-item {
+    color: #c9d1d9;
+    &:hover {
+    text-decoration: none;
+    color: lighten(#ff6984, 10);
+  }
+    
+  }
 }
