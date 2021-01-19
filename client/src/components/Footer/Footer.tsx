@@ -5,7 +5,7 @@ const Footer = () => {
 
     }
     return (
-        <div className="footer">
+        <footer className="footer">
             <div className="bio" onClick={handleClick}>
                 <h4>Yasir Tobbileh</h4>
                 <p> Full Stack Software Engineer</p>
@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="copyright">
                 <i className="far fa-copyright"> 2021 Designed by Yasir Tobbileh</i>
             </div>
-        </div>
+        </footer>
     );
 }
 
