@@ -13,8 +13,172 @@
 }
 
 .tech-item {
-  padding: 20px 40px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 20px 30px;
   font-weight: bold;
+}
+.tech-item .skills-container {
+  position: relative;
+  display: block;
+  width: 86.5px;
+  background-color: #ddd;
+  border-radius: 20px;
+  visibility: hidden;
+  opacity: 0;
+}
+.tech-item .skills-container .tooltiptext {
+  width: 40%;
+  background-color: #555;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  top: 175%;
+  transition: 0.3s;
+}
+.tech-item .skills-container .tooltiptext::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+.tech-item .skills-container .skills {
+  border-radius: 20px;
+  height: 9px;
+  background-color: #4caf50;
+}
+.tech-item:hover, .tech-item:hover .skills-container {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.html5 {
+  width: 85%;
+}
+
+.html5 + span {
+  right: -5%;
+}
+
+.css3 {
+  width: 85%;
+}
+
+.css3 + span {
+  right: -5%;
+}
+
+.sass {
+  width: 70%;
+}
+
+.sass + span {
+  right: 10%;
+}
+
+.javascript {
+  width: 85%;
+}
+
+.javascript + span {
+  right: -5%;
+}
+
+.typescript {
+  width: 65%;
+}
+
+.typescript + span {
+  right: 15%;
+}
+
+.cplus {
+  width: 55%;
+}
+
+.cplus + span {
+  right: 25%;
+}
+
+.python {
+  width: 60%;
+}
+
+.python + span {
+  right: 20%;
+}
+
+.django {
+  width: 55%;
+}
+
+.django + span {
+  right: 25%;
+}
+
+.travis {
+  width: 60%;
+}
+
+.travis + span {
+  right: 20%;
+}
+
+.react {
+  width: 85%;
+}
+
+.react + span {
+  right: -5%;
+}
+
+.redux {
+  width: 85%;
+}
+
+.redux + span {
+  right: -5%;
+}
+
+.mongodb {
+  width: 75%;
+}
+
+.mongodb + span {
+  right: 5%;
+}
+
+.postgresql {
+  width: 70%;
+}
+
+.postgresql + span {
+  right: 10%;
+}
+
+.docker {
+  width: 60%;
+}
+
+.docker + span {
+  right: 20%;
+}
+
+.heroku {
+  width: 75%;
+}
+
+.heroku + span {
+  right: 5%;
 }
 
 @media screen and (max-width: 650px) {
@@ -23,7 +187,18 @@
   }
 
   .tech-item {
-    padding: 10px 20px;
+    padding: 5px;
+    margin: 20px 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .tech-container {
+    grid-template-columns: auto auto;
+  }
+
+  .tech-item {
+    padding: 5px;
+    margin: 10px 15px;
   }
 }
 .dark .tech {
