@@ -42,6 +42,12 @@
   }
 }
 
+@media screen and (max-width: 420px) {
+  .main-items {
+    display: none;
+  }
+}
+
 .dark {
   .footer {
     color: #c9d1d9;
