@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import GetInTouch from './components/GetInTouch/GetInTouch';
 import UsedTech from './components/UsedTech/UsedTech';
 import Projects from './components/Projects/Projects';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Header} />
           {/* <Route path="/tech" component={UsedTech} /> */}
+          <Route exact path="/about" component={About} />
           <Route path="/contact" component={GetInTouch} />
           <Route path="/projects" component={Projects} />
 
