@@ -1,0 +1,49 @@
+.about-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  width: 100%;
+}
+.about-container .about-me,
+.about-container .about-img {
+  box-sizing: border-box;
+  margin: 20px 50px;
+}
+
+.about-me {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+.about-me .my-resume {
+  border-radius: 20px;
+  padding: 8px 15px;
+  text-decoration: none;
+  background-color: #222d37;
+  border: 1px solid #21262d;
+  color: #ff6984;
+}
+.about-me .my-resume:hover {
+  background-color: #354757;
+}
+
+.about-img {
+  padding: 20px;
+}
+.about-img img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .about-container {
+    grid-template-columns: auto;
+  }
+}
+.dark .about {
+  color: #c9d1d9;
+  background-color: #121E2A;
+  border-bottom: 1px solid #21262d;
+}
