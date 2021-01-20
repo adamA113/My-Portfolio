@@ -1,5 +1,6 @@
 import './Projects.css';
 import project1 from './servize.png';
+import project2 from './hotelcom.png';
 const Projects = () => {
     return (
         <div className="projects">
@@ -59,7 +60,7 @@ const Projects = () => {
 
             <div className="project-info">
                 <div className="project-img">
-                    <img src="hotelcom.png" />
+                    <img src={project2} />
                 </div>
 
                 <div className="project-container">
