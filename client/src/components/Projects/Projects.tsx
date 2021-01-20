@@ -1,4 +1,5 @@
 import './Projects.css';
+import project1 from './servize.png';
 const Projects = () => {
     return (
         <div className="projects">
@@ -6,7 +7,7 @@ const Projects = () => {
 
             <div className="project-info">
                 <div className="project-img">
-                    <img src={require('./servize.png')}  />
+                    <img src={project1}  />
                 </div>
 
                 <div className="project-container">
