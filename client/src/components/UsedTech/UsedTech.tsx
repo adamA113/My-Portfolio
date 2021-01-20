@@ -57,6 +57,16 @@ const UsedTech = () => {
                 </div>
 
                 <div className="tech-item">
+                    <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />
+                    <p>Node.js</p>
+
+                    <div className="skills-container">
+                        <div className="skills nodejs"></div>
+                        <span className="tooltiptext">75%</span>
+                    </div>
+                </div>
+
+                <div className="tech-item">
                     <img src="https://img.icons8.com/color/50/000000/c-plus-plus-logo.png" />
                     <p>C++</p>
                     
