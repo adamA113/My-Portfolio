@@ -11,7 +11,7 @@
 .about-container .about-me,
 .about-container .about-img {
   box-sizing: border-box;
-  margin: 20px 50px;
+  margin: 20px 35px;
 }
 
 .about-me {
@@ -23,7 +23,7 @@
   border-radius: 20px;
   padding: 8px 15px;
   text-decoration: none;
-  background-color: #F6F8FA;
+  background-color: #f6f8fa;
   border: 1px solid #21262d;
   color: #ff6984;
 }
@@ -41,9 +41,25 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
+  .about-me {
+    width: 500px;
+  }
+  .about-me .about-img img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 910px) {
   .about-container {
     grid-template-columns: auto;
+  }
+
+  .about-img img {
+    display: block;
+    margin: 0 auto;
+    width: 190px;
+    height: 190px;
   }
 }
 .dark .about {
