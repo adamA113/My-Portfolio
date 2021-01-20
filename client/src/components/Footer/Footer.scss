@@ -57,9 +57,8 @@
   .fot-item {
     color: #c9d1d9;
     &:hover {
-    text-decoration: none;
-    color: lighten(#ff6984, 10);
-  }
-    
+      text-decoration: none;
+      color: lighten(#ff6984, 10);
+    }
   }
 }

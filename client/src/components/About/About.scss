@@ -1,3 +1,7 @@
+.about {
+  border-bottom: 1px solid #eaecef;
+}
+
 .about-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -20,7 +24,7 @@
     border-radius: 20px;
     padding: 8px 15px;
     text-decoration: none;
-    background-color: #222d37;
+    background-color: #F6F8FA;
     border: 1px solid #21262d;
     color: #ff6984;
     &:hover {
@@ -40,7 +44,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .about-container{
+  .about-container {
     grid-template-columns: auto;
   }
 }
@@ -48,7 +52,15 @@
 .dark {
   .about {
     color: #c9d1d9;
-    background-color: #121E2A;
+    background-color: #121e2a;
     border-bottom: 1px solid #21262d;
+
+    .my-resume {
+      color: #ff6984;
+      background-color: #222d37;
+      &:hover {
+        background-color: lighten(#222d37, 10);
+      }
+    }
   }
 }

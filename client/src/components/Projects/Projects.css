@@ -1,20 +1,69 @@
-.project-img {
-  width: 250px;
-  height: 250px;
+.projects {
+  text-align: center;
+}
+.projects h3 {
+  padding-top: 20px;
+}
+.projects .project-img,
+.projects .project-container {
+  margin: 20px 40px;
+}
+
+.project-img img {
+  width: 450px;
+  height: 300px;
   border-radius: 20px;
   border: 1px solid #eaecef;
   margin: 20px 0;
 }
 
 .project-info {
-  text-align: center;
-  border: 1px solid #eaecef;
-  margin: 20px auto;
-  border-radius: 20px;
-  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin: 30px auto;
+  width: 100%;
 }
-
-.project-disc {
+.project-info .project-container {
   width: 460px;
   margin: 10px;
+  text-align: center;
+}
+.project-info .project-container h4 {
+  margin-bottom: 15px;
+}
+.project-info .project-disc,
+.project-info .project-stack,
+.project-info .project-links {
+  text-align: left;
+}
+.project-info .project-stack > p {
+  margin-bottom: 0;
+}
+.project-info .project-stack .stack-item {
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 10px;
+}
+.project-info .project-stack .stack-item p {
+  text-align: center;
+}
+.project-info .project-stack img {
+  display: block;
+  margin: 0 auto;
+}
+.project-info .project-links {
+  margin-top: 20px;
+}
+.project-info .project-links a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 8px 15px;
+  text-decoration: none;
+  background-color: #f6f8fa;
+  border: 1px solid #21262d;
+  color: #ff6984;
+}
+.project-info .project-links a:hover {
+  background-color: #354757;
 }
