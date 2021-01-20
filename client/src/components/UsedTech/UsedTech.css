@@ -200,6 +200,10 @@
   }
 }
 @media screen and (max-width: 420px) {
+  .tech h3 {
+    font-size: 18px;
+  }
+
   .tech-container {
     grid-template-columns: auto auto;
   }

@@ -11,11 +11,31 @@
   margin: 10px auto;
   color: #c9d1d9;
 }
-.header p {
-  font-size: 34px;
+
+@media screen and (min-width: 770px) {
+  .my-container {
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    font-size: 34px;
+  }
 }
-.header .my-container {
-  position: absolute;
-  top: 80px;
-  left: 140px;
+@media screen and (max-width: 770px) {
+  .my-container {
+    position: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .header {
+    height: 450px;
+  }
+  .header .my-container {
+    font-size: 24px;
+  }
+  .header h1 {
+    font-size: 24px;
+  }
 }
