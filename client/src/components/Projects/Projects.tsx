@@ -6,7 +6,7 @@ const Projects = () => {
 
             <div className="project-info">
                 <div className="project-img">
-                    <img src="servize.png" />
+                    <img src={require('./servize.png')}  />
                 </div>
 
                 <div className="project-container">
