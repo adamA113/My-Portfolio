@@ -101,6 +101,14 @@
   right: 15%;
 }
 
+.nodejs {
+  width: 75%;
+}
+
+.nodejs + span {
+  right: 5%;
+}
+
 .cplus {
   width: 55%;
 }
