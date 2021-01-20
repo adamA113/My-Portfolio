@@ -84,18 +84,18 @@
 
 }
 
-// .dark {
-//   .projects {
-//     color: #c9d1d9;
-//     background-color: #121e2a;
-//     border-bottom: 1px solid #21262d;
+.dark {
+  .projects {
+    color: #c9d1d9;
+    background-color: #121e2a;
+    border-bottom: 1px solid #21262d;
 
-//     .project-github {
-//       color: #ff6984;
-//       background-color: #222d37;
-//       &:hover {
-//         background-color: lighten(#222d37, 10);
-//       }
-//     }
-//   }
-// }
+    .project-github {
+      color: #ff6984;
+      background-color: #222d37;
+      &:hover {
+        background-color: lighten(#222d37, 10);
+      }
+    }
+  }
+}
