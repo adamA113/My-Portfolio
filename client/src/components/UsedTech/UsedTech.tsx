@@ -3,7 +3,7 @@ import './UsedTech.css';
 const UsedTech = () => {
     return (
         <div className="tech">
-            <h3>Technologies I used</h3>
+            <p>Technologies I used</p>
             <div className="tech-container">
 
                 <div className="tech-item">

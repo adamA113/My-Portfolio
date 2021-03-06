@@ -67,6 +67,7 @@ const Navbar = () => {
                 <a className="pc-view" href="/about">About</a>
 
                 <div className="toggle-container">
+                    <label htmlFor="dark-mode" style={{"display":"none"}}>dark mode switch</label>
                     <input type="checkbox" id="dark-mode" />
                     <div className="slider round"></div>
                 </div>

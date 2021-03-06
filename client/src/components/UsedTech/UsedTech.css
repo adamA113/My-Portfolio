@@ -1,7 +1,7 @@
 .tech {
   text-align: center;
 }
-.tech h3 {
+.tech > p {
   padding-top: 15px;
 }
 
@@ -200,7 +200,7 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .tech h3 {
+  .tech > p {
     font-size: 18px;
   }
 
