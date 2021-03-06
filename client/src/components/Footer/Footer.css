@@ -12,9 +12,12 @@
 .bio {
   margin: 10px 30px;
 }
+.bio p:first-child {
+  font-size: 1.5rem;
+}
 
 .copyright {
-  font-size: 10px;
+  font-size: 12px;
   margin: 20px 30px;
 }
 

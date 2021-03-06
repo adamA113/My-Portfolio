@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="bio" onClick={handleClick}>
-                <h4>Yasir Tobbileh</h4>
+                <p>Yasir Tobbileh</p>
                 <p> Full Stack Software Engineer</p>
             </div>
 
