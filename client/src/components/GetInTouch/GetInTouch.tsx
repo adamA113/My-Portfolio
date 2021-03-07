@@ -2,9 +2,9 @@
 import './GetInTouch.css';
 const GetInTouch = () => {
 
-    const handleSubmit = () => {
+    // const handleSubmit = () => {
 
-    }
+    // }
     return (
         <div id="query">
             {/* <form id="query-form" onSubmit={handleSubmit}>
