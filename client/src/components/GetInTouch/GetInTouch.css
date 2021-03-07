@@ -1,5 +1,5 @@
 #query {
-  height: 100vh;
+  height: 83vh;
 }
 
 .contact-container {
@@ -42,9 +42,6 @@
 @media screen and (max-width: 650px) {
   .contact-container {
     grid-template-columns: auto;
-  }
-  .contact-container .contact-img {
-    display: none;
   }
 }
 .dark #query {

@@ -9,14 +9,20 @@ const Header = () => {
             </a> */}
             {/* <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60" /> */}
 
-            <img src={header_img} alt="header-background" />
+            <img src={header_img} alt="header-background" useMap="#header-img" />
+
+            <map name="header-img">
+                {/* <area shape="rect" coords="128,75,825,900" alt="Computer" href="/tech" style={{border: "10px solid red"}} /> */}
+                 {/* <area shape="rect" coords="850,630,1436,1032" alt="Phone" href="/projects" />  */}
+                {/* <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" /> */}
+            </map>
 
             <div className="my-container">
                 <h1 className="header-disc">Hi, I'm Yasir Tobbileh</h1>
                 <p className="header-disc">Full Stack Software Engineer</p>
                 {/* <button id="btn-projects">Projects</button> */}
             </div>
-            
+
 
         </header>
     );

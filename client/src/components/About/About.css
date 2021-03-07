@@ -1,6 +1,6 @@
 .about {
   border-bottom: 1px solid #eaecef;
-  height: 100vh;
+  height: 100%;
 }
 
 .about-container {
@@ -43,6 +43,10 @@
 }
 
 @media screen and (min-width: 800px) {
+  .about {
+    height: 83vh;
+  }
+
   .about-me {
     width: 500px;
   }
