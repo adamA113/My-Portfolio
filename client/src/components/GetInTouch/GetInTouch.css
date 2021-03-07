@@ -1,7 +1,12 @@
+#query {
+  height: 100vh;
+}
+
 .contact-container {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .contact-container .contact-details,

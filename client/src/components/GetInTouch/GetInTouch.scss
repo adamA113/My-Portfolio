@@ -1,6 +1,7 @@
-// #query {
-//   padding: 20px;
-// }
+#query {
+  // padding: 20px;
+  height: 100vh;
+}
 
 // #query-form {
 //   margin: 0 auto;
@@ -73,6 +74,7 @@
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
+  align-items: center;
   width: 100%;
 
   .contact-details,
