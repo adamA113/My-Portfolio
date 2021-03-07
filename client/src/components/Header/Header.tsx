@@ -1,5 +1,6 @@
 
 import './Header.css';
+import header_img from './header-img.png';
 const Header = () => {
     return (
         <header className="header">
@@ -7,6 +8,8 @@ const Header = () => {
                 <p>yasir.tobbileh@gmail.com</p>
             </a> */}
             {/* <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60" /> */}
+
+            <img src={header_img} alt="header-background" />
 
             <div className="my-container">
                 <h1 className="header-disc">Hi, I'm Yasir Tobbileh</h1>

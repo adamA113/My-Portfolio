@@ -18,13 +18,13 @@ function App() {
 
         <Switch>
           <Route exact path="/" component={Header} />
-          {/* <Route path="/tech" component={UsedTech} /> */}
+          <Route path="/tech" component={UsedTech} />
           <Route exact path="/about" component={About} />
           <Route path="/contact" component={GetInTouch} />
           <Route path="/projects" component={Projects} />
 
         </Switch>
-        <UsedTech />
+        {/* <UsedTech /> */}
         <Footer />
 
 
