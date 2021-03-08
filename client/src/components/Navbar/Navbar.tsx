@@ -1,4 +1,4 @@
-import { Link, Redirect } from 'react-router-dom';
+// import { Link, Redirect } from 'react-router-dom';
 import './Navbar.css';
 const $ = require('jquery');
 

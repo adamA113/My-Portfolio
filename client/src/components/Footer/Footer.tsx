@@ -1,12 +1,11 @@
-
 import './Footer.css';
 const Footer = () => {
-    const handleClick = () => {
+    // const handleClick = () => {
 
-    }
+    // }
     return (
         <footer className="footer">
-            <div className="bio" onClick={handleClick}>
+            <div className="bio">
                 <p>Yasir Tobbileh</p>
                 <p> Full Stack Software Engineer</p>
             </div>

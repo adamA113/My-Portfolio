@@ -1,4 +1,3 @@
-
 import './UsedTech.css';
 const UsedTech = () => {
     return (

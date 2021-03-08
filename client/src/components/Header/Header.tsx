@@ -1,4 +1,3 @@
-
 import './Header.css';
 import header_img from './header-img.png';
 const Header = () => {
@@ -12,8 +11,8 @@ const Header = () => {
             <img src={header_img} alt="header-background" useMap="#header-img" />
 
             <map name="header-img">
-                {/* <area shape="rect" coords="128,75,825,900" alt="Computer" href="/tech" style={{border: "10px solid red"}} /> */}
-                 {/* <area shape="rect" coords="850,630,1436,1032" alt="Phone" href="/projects" />  */}
+                <area shape="rect" coords="128,75,825,900" alt="Computer" href="/tech" style={{ border: "10px solid red" }} />
+                {/* <area shape="rect" coords="850,630,1436,1032" alt="Phone" href="/projects" />  */}
                 {/* <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" /> */}
             </map>
 
