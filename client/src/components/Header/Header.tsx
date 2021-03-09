@@ -1,5 +1,11 @@
 import './Header.css';
 import header_img from './header-img.png';
+import $ from 'jquery';
+
+// jQuery(function (e) {
+//     $('img[usemap]').rwdImageMaps();
+
+//     });
 const Header = () => {
     return (
         <header className="header">
@@ -11,7 +17,8 @@ const Header = () => {
             <img src={header_img} alt="header-background" useMap="#header-img" />
 
             <map name="header-img">
-                <area shape="rect" coords="128,75,825,900" alt="Computer" href="/tech" style={{ border: "10px solid red" }} />
+                {/* <area shape="rect" coords="128,75, 132,130, 150,218 825,900" alt="Computer" href="/" /> */}
+                <area target="" alt="" title="" href="" coords="565,52,494,52,405,48,301,47,222,49,126,48,87,52,94,113,106,176,121,242,133,307,127,349,126,437,125,520,124,568,130,601,214,602,321,602,411,604,474,606,554,606,558,175,562,97" shape="poly" />
                 {/* <area shape="rect" coords="850,630,1436,1032" alt="Phone" href="/projects" />  */}
                 {/* <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" /> */}
             </map>
