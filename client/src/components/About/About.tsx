@@ -9,9 +9,9 @@ const About = () => {
 
                 <div className="about-me">
                     <h3>About me</h3>
-                    <p>I am a Full-stack developer/ Software Engineer. I am interested in web development and network design, cloud, and virtualization.</p>
+                    <p>I am a Full-stack developer/ Software Engineer, Computer geek, technology enthusiast, and gamer. Finding bugs and fix them is my hobby. Punctual and challenge addict.</p>
 
-                    <p>Also, as an Electrical Engineer, I am really into creating software for IoT devices and embedded systems, as well as designing and implementing their hardware as well. </p>
+                    <p>Also, as an Electrical Engineer, I like creating software for embedded systems. </p>
 
                     {/* <a className="my-resume" href="https://www.visualcv.com/pdfs/6311737/" target="_blank" rel="noreferrer">My Resume</a><br /> */}
                 </div>
