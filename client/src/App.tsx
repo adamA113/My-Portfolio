@@ -13,6 +13,10 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
+        {/* <Header />
+        <About />
+        <GetInTouch />
+        <Projects /> */}
 
         <Switch>
           <Route exact path="/" component={Header} />

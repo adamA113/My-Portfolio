@@ -21,6 +21,8 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/yasir-tobbileh/" target="_blank" rel="noreferrer" className="fot-item"><i className="fab fa-linkedin fa-2x"></i></a>
 
                     <a href="https://github.com/adamA113" target="_blank" rel="noreferrer" className="fot-item"><i className="fab fa-github fa-2x"></i></a>
+
+                    <a href="https://twitter.com/Yasir_Tobbileh" target="_blank" rel="noreferrer" className="fot-item"><i className="fab fa-twitter-square fa-2x"></i></a>
                 </div>
 
             </div>

@@ -145,7 +145,7 @@ const UsedTech = () => {
                     </div>
                 </div>
 
-                <div className="tech-item">
+                {/* <div className="tech-item">
                     <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker logo"  />
                     <p>Docker</p>
 
@@ -153,7 +153,7 @@ const UsedTech = () => {
                         <div className="skills docker"></div>
                         <span className="tooltiptext">60%</span>
                     </div>
-                </div>
+                </div> */}
 
                 {/* <div className="tech-item">
                     <img src="https://img.icons8.com/color/48/000000/kubernetes.png" />

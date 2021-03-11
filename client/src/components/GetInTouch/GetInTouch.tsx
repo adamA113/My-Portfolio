@@ -30,19 +30,31 @@ const GetInTouch = () => {
             <div className="contact-container">
                 <div className="contact-details">
                     <h3>Get In Touch</h3>
-                    <div className="email-container">
-                        <p> Email:
-                            <a className="my-email" href="mailto:yasir.tobbileh@gmail.com">
-                                <p>yasir.tobbileh@gmail.com</p>
-                            </a>
-                        </p>
-
+                    <div className="data-container">
+                        <a className="my-data" href="mailto:yasir.tobbileh@gmail.com">
+                            <i className="fas fa-envelope-square fa-2x"></i>
+                            <span> yasir.tobbileh@gmail.com</span>
+                        </a>
                     </div>
 
-                    <div className="phone-container">
+                    <div className="data-container">
+                        <a className="my-data" href="https://www.linkedin.com/in/yasir-tobbileh/" target="_blank" rel="noreferrer" >
+                            <i className="fab fa-linkedin fa-2x"> </i>
+                            <span> Yasir-Tobbileh</span>
+                        </a>
+                    </div>
+
+                    <div className="data-container">
+                        <a className="my-data" href="https://twitter.com/Yasir_Tobbileh" target="_blank" rel="noreferrer" >
+                            <i className="fab fa-twitter-square fa-2x"> </i>
+                            <span> @Yasir_Tobbileh</span>
+                        </a>
+                    </div>
+
+                    {/* <div className="phone-container">
                         <span>Cell Phone:</span>
                         <p className="my-phone"> (+972) 59 247 4285</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="contact-img">

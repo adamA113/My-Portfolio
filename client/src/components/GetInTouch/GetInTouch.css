@@ -8,7 +8,7 @@
 .contact-container .contact-details,
 .contact-container .contact-img {
   box-sizing: border-box;
-  margin: 20px 50px;
+  margin: 20px 30px;
 }
 
 .contact-details {
@@ -27,10 +27,13 @@
   border-radius: 20px;
 }
 
-.my-email {
-  color: #ff92a5;
+.data-container {
+  margin: 20px 0;
 }
-.my-email:hover {
+.data-container .my-data {
+  color: #e1e5ea;
+}
+.data-container .my-data:hover {
   text-decoration: none;
   color: #ff92a5;
 }

@@ -1,6 +1,6 @@
 // #query {
-  // padding: 20px;
-  // height: 71vh;
+// padding: 20px;
+// height: 71vh;
 // }
 
 // #query-form {
@@ -80,7 +80,7 @@
   .contact-details,
   .contact-img {
     box-sizing: border-box;
-    margin: 20px 50px;
+    margin: 20px 30px;
   }
 }
 
@@ -100,12 +100,16 @@
   }
 }
 
-.my-email {
-  color: lighten(#ff6984, 8);
+.data-container {
+  margin: 20px 0;
 
-  &:hover {
-    text-decoration: none;
-    color: lighten(#ff6984, 8);
+  .my-data {
+    color: lighten(#c9d1d9, 8);
+
+    &:hover {
+      text-decoration: none;
+      color: lighten(#ff6984, 8);
+    }
   }
 }
 

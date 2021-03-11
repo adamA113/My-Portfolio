@@ -28,6 +28,16 @@
     margin: 10px auto;
     color: #c9d1d9;
   }
+  @keyframes blinker {
+    40% {
+      opacity: 0.5;
+    }
+  }
+  .items-click {
+    animation: blinker 2s linear infinite;
+    color: #1c87c9;
+    font-weight: 600;
+  }
 
   // p {
   //   font-size: 34px;
