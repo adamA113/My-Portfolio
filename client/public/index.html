@@ -53,7 +53,7 @@
 
   <script>
     $(document).ready(function () {
-      if (location.href[location.href.length - 1] === '/') {
+      if (location.href[location.href.length - 1] === '/' || location.href.slice(-5) === '.com/') {
         window.onload = function () {
           var ImageMap = function (map, img) {
             var n,
