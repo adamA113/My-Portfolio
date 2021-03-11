@@ -1,6 +1,4 @@
-import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-// import logo from './logo.svg';
 // import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -26,9 +24,6 @@ function App() {
         </Switch>
         {/* <UsedTech /> */}
         <Footer />
-
-
-
 
       </div>
     </BrowserRouter>
