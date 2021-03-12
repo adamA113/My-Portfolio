@@ -104,7 +104,7 @@
   margin: 20px 0;
 
   .my-data {
-    color: lighten(#c9d1d9, 8);
+    color: lighten(#000, 8);
 
     &:hover {
       text-decoration: none;
@@ -137,5 +137,9 @@
     color: #c9d1d9;
     background-color: #06090f;
     border-bottom: 1px solid #21262d;
+
+    .my-data{
+      color: #c9d1d9;
+    }
   }
 }

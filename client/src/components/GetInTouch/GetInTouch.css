@@ -31,7 +31,7 @@
   margin: 20px 0;
 }
 .data-container .my-data {
-  color: #e1e5ea;
+  color: #141414;
 }
 .data-container .my-data:hover {
   text-decoration: none;
@@ -52,4 +52,7 @@
   color: #c9d1d9;
   background-color: #06090f;
   border-bottom: 1px solid #21262d;
+}
+.dark #query .my-data {
+  color: #c9d1d9;
 }
