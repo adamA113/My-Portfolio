@@ -1,5 +1,10 @@
-.about {
-  border-bottom: 1px solid #eaecef;
+html {
+  scroll-behavior: smooth;
+}
+
+#about {
+  border-bottom: 1px solid #EAECEF;
+  background-color: #F6F8FA;
   height: 100%;
 }
 
@@ -19,17 +24,6 @@
   padding: 20px;
   font-size: 20px;
   text-align: left;
-}
-.about-me .my-resume {
-  border-radius: 20px;
-  padding: 8px 15px;
-  text-decoration: none;
-  background-color: #f6f8fa;
-  border: 1px solid #21262d;
-  color: #ff6984;
-}
-.about-me .my-resume:hover {
-  background-color: #354757;
 }
 
 .about-img {
@@ -67,15 +61,8 @@
     height: 190px;
   }
 }
-.dark .about {
-  color: #c9d1d9;
-  background-color: #121e2a;
-  border-bottom: 1px solid #21262d;
-}
-.dark .about .my-resume {
-  color: #ff6984;
-  background-color: #222d37;
-}
-.dark .about .my-resume:hover {
-  background-color: #354757;
+.dark #about {
+  color: #C9D1D9;
+  background-color: #06090F;
+  border-bottom: 1px solid #21262D;
 }

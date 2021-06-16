@@ -1,5 +1,8 @@
-.about {
-  border-bottom: 1px solid #eaecef;
+@import "../../index";
+
+#about {
+  border-bottom: 1px solid $lightmode-element-border;
+  background-color: $lightmode-background-color;
   height: 100%;
 }
 
@@ -21,17 +24,17 @@
   font-size: 20px;
   text-align: left;
 
-  .my-resume {
-    border-radius: 20px;
-    padding: 8px 15px;
-    text-decoration: none;
-    background-color: #f6f8fa;
-    border: 1px solid #21262d;
-    color: #ff6984;
-    &:hover {
-      background-color: lighten(#222d37, 10);
-    }
-  }
+  // .my-resume {
+  //   border-radius: 20px;
+  //   padding: 8px 15px;
+  //   text-decoration: none;
+  //   background-color: #f6f8fa;
+  //   border: 1px solid #21262d;
+  //   color: #ff6984;
+  //   &:hover {
+  //     background-color: lighten(#222d37, 10);
+  //   }
+  // }
 }
 
 .about-img {
@@ -74,17 +77,17 @@
 }
 
 .dark {
-  .about {
-    color: #c9d1d9;
-    background-color: #121e2a;
-    border-bottom: 1px solid #21262d;
+  #about {
+    color: $darkmode-text-color;
+    background-color: $background-color;
+    border-bottom: 1px solid $darkmode-element-border;
 
-    .my-resume {
-      color: #ff6984;
-      background-color: #222d37;
-      &:hover {
-        background-color: lighten(#222d37, 10);
-      }
-    }
+    // .my-resume {
+    //   color: #ff6984;
+    //   background-color: #222d37;
+    //   &:hover {
+    //     background-color: lighten(#222d37, 10);
+    //   }
+    // }
   }
 }

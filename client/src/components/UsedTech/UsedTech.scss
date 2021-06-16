@@ -1,6 +1,8 @@
 @import "../../index";
 
-.tech {
+#tech {
+  border-bottom: 1px solid $lightmode-element-border;
+  background-color: $lightmode-background-color;
   text-align: center;
   > p {
     padding-top: 15px;
@@ -194,7 +196,7 @@
 }
 
 @media screen and (max-width: 420px) {
-  .tech {
+  #tech {
     > p {
       font-size: 18px;
     }
@@ -208,7 +210,8 @@
   }
 }
 
-.dark .tech {
+.dark #tech {
+  border-bottom: 1px solid $darkmode-element-border;
   background-color: $background-color;
-  color: $text-color-dark;
+  color: $darkmode-text-color;
 }

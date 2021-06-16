@@ -1,3 +1,5 @@
+@import "../../index";
+
 .footer {
   display: grid;
   grid-template-columns: auto auto;
@@ -5,8 +7,8 @@
   width: 100%;
   bottom: 0;
   color: #000;
-  background-color: #f6f8fa;
-  border-top: 1px solid #eaecef;
+  background-color: $lightmode-background-color;
+  border-top: 1px solid $lightmode-element-border;
 }
 
 .bio {
@@ -54,12 +56,12 @@
 
 .dark {
   .footer {
-    color: #c9d1d9;
+    color: $darkmode-text-color;
     background-color: #000;
-    border-top: 1px solid #21262d;
+    border-top: 1px solid $darkmode-element-border;
   }
   .fot-item {
-    color: #c9d1d9;
+    color: $darkmode-text-color;
     &:hover {
       text-decoration: none;
       color: lighten(#ff6984, 10);

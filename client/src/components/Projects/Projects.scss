@@ -1,13 +1,12 @@
-.projects {
+@import "../../index";
+
+#projects {
+  border-bottom: 1px solid $lightmode-element-border;
   text-align: center;
   height: 100%;
   h3 {
     padding: 20px 5px;
   }
-  //   .project-img,
-  //   .project-container {
-  //     margin: 20px 40px;
-  //   }
 }
 .project-img {
   box-sizing: border-box;
@@ -69,7 +68,6 @@
       display: inline-block;
       text-decoration: none;
       border-radius: 10px;
-      //   padding: 8px 15px;
       text-decoration: none;
       background-color: #f6f8fa;
       border: 1px solid #21262d;
@@ -145,10 +143,10 @@
 }
 
 .dark {
-  .projects {
-    color: #c9d1d9;
-    background-color: #121e2a;
-    border-bottom: 1px solid #21262d;
+  #projects {
+    color: $darkmode-text-color;
+    background-color: $darkmode-background-color;
+    border-bottom: 1px solid $darkmode-element-border;
 
     .project-github,
     .project-deploy {

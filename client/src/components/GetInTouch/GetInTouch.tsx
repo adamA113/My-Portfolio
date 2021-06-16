@@ -5,7 +5,7 @@ const GetInTouch = () => {
 
     // }
     return (
-        <div id="query">
+        <div id="contact">
             {/* <form id="query-form" onSubmit={handleSubmit}>
                 <h3>Get In Touch</h3>
                 <br />
@@ -30,6 +30,7 @@ const GetInTouch = () => {
             <div className="contact-container">
                 <div className="contact-details">
                     <h3>Get In Touch</h3>
+                    
                     <div className="data-container">
                         <a className="my-data" href="mailto:yasir.tobbileh@gmail.com">
                             <i className="fas fa-envelope-square fa-2x"></i>
@@ -50,11 +51,6 @@ const GetInTouch = () => {
                             <span> @Yasir_Tobbileh</span>
                         </a>
                     </div>
-
-                    {/* <div className="phone-container">
-                        <span>Cell Phone:</span>
-                        <p className="my-phone"> (+972) 59 247 4285</p>
-                    </div> */}
                 </div>
 
                 <div className="contact-img">

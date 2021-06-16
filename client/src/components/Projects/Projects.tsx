@@ -3,7 +3,7 @@ import project1 from './servize.png';
 import project2 from './hotelcom.png';
 const Projects = () => {
     return (
-        <div className="projects">
+        <div id="projects">
             <h3>My Latest Projects</h3>
 
             <div className="project-info">

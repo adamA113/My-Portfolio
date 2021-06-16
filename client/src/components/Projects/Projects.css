@@ -1,8 +1,13 @@
-.projects {
+html {
+  scroll-behavior: smooth;
+}
+
+#projects {
+  border-bottom: 1px solid #EAECEF;
   text-align: center;
   height: 100%;
 }
-.projects h3 {
+#projects h3 {
   padding: 20px 5px;
 }
 
@@ -124,17 +129,17 @@
     margin-bottom: 15px;
   }
 }
-.dark .projects {
-  color: #c9d1d9;
-  background-color: #121e2a;
-  border-bottom: 1px solid #21262d;
+.dark #projects {
+  color: #C9D1D9;
+  background-color: #121E2A;
+  border-bottom: 1px solid #21262D;
 }
-.dark .projects .project-github,
-.dark .projects .project-deploy {
+.dark #projects .project-github,
+.dark #projects .project-deploy {
   color: #ff6984;
   background-color: #222d37;
 }
-.dark .projects .project-github:hover,
-.dark .projects .project-deploy:hover {
+.dark #projects .project-github:hover,
+.dark #projects .project-deploy:hover {
   background-color: #354757;
 }

@@ -1,7 +1,7 @@
 import './UsedTech.css';
 const UsedTech = () => {
     return (
-        <div className="tech">
+        <div id="tech">
             <p>Technologies I used</p>
             <div className="tech-container">
 

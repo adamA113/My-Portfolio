@@ -1,7 +1,7 @@
 import './About.css';
 const About = () => {
     return (
-        <div className="about">
+        <div id="about">
             <div className="about-container"> 
                 <div className="about-img">
                     <img src="https://mk0stemstudylnn81ule.kinstacdn.com/wp-content/uploads/2019/04/business-code-coding-943096-600x400.jpg" alt="post-box"/>
@@ -13,12 +13,10 @@ const About = () => {
 
                     <p>Also, as an Electrical Engineer, I like creating software for embedded systems. </p>
 
-                    {/* <a className="my-resume" href="https://www.visualcv.com/pdfs/6311737/" target="_blank" rel="noreferrer">My Resume</a><br /> */}
                 </div>
 
             </div>
         </div>
-
     );
 }
 
