@@ -1,3 +1,5 @@
+@import "../../index";
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -19,6 +21,7 @@
   }
   .sidenav-logo {
     color: #eb002f;
+    font-family: "Yellowtail", sans-serif;
     position: absolute;
     top: 10px;
     left: 0;
@@ -61,7 +64,6 @@
   width: 100%;
   line-height: 30px;
   background-color: #cfdee9;
-
 }
 
 .logo {
@@ -71,6 +73,7 @@
   color: #eb002f;
   font-weight: bold;
   font-size: 2rem;
+  font-family: "Yellowtail", sans-serif;
   letter-spacing: 2px;
   &:hover {
     text-decoration: none;
@@ -129,8 +132,8 @@
 }
 
 .white {
-  background: #f6f8fa;
-  border-bottom: 1px solid #eaecef;
+  background: $lightmode-background-color;
+  border-bottom: 1px solid $lightmode-element-border;
 }
 /////*************dark mode************//////////
 .dark {
@@ -138,38 +141,48 @@
     color: #fff;
   }
   .navbar {
-    background-color: #161b22;
-    border-bottom: 1px solid #21262d;
+    background-color: $navbar-background-color-dark;
+    border-bottom: 1px solid $darkmode-element-border;
   }
   .pc-view {
-    color: #c9d1d9;
+    color: $darkmode-text-color;
     &:hover {
       color: lighten(#ff6984, 5);
     }
   }
 
   .sidenav {
-    background-color: #161b22;
-    border-right: 1px solid #21262d;
+    background-color: $navbar-background-color-dark;
+    border-right: 1px solid $darkmode-element-border;
     .closebtn {
-      color: #c9d1d9;
+      color: $darkmode-text-color;
     }
     .sidenav-logo {
-      color: #ff6984;
+      text-shadow: 0 0 7px purple, 0 0 10px purple, 0 0 21px #fff,
+        0 0 42px #5271ff, 0 0 82px #5271ff;
+      color: #fff;
       &:hover {
         color: lighten(#ff6984, 10);
       }
     }
 
     a {
-      color: #c9d1d9;
+      color: $darkmode-text-color;
       &:hover {
         color: lighten(#ff6984, 5);
       }
     }
-
   }
 
+  .logo {
+    text-shadow: 0 0 7px purple, 0 0 10px purple, 0 0 21px #fff,
+      0 0 42px #5271ff, 0 0 82px #5271ff;
+    color: #fff;
+
+    &:hover {
+      color: lighten(#ff6984, 2);
+    }
+  }
 }
 
 /******************************toggle switch************************************/
