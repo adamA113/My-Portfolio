@@ -13,22 +13,20 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        {/* <Header />
+        <Header />
         <About />
+        <Projects />
+        <UsedTech />
         <GetInTouch />
-        <Projects /> */}
-
-        <Switch>
+        
+        {/* <Switch>
           <Route exact path="/" component={Header} />
           <Route path="/tech" component={UsedTech} />
           <Route exact path="/about" component={About} />
           <Route path="/contact" component={GetInTouch} />
           <Route path="/projects" component={Projects} />
-
-        </Switch>
-        {/* <UsedTech /> */}
+        </Switch> */}
         <Footer />
-
       </div>
     </BrowserRouter>
 

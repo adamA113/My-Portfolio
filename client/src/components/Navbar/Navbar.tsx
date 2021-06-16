@@ -1,6 +1,6 @@
 // import { Link, Redirect } from 'react-router-dom';
 import './Navbar.css';
-const $ = require('jquery');
+import $ from 'jquery';
 
 $(window).on("scroll", function () {
     if ($(window).scrollTop()) {
@@ -10,12 +10,12 @@ $(window).on("scroll", function () {
     }
 });
 
-$(document).ready(function () {
+$(function () {
     if (localStorage.getItem("theme") === "dark") {
         $(':root').addClass("dark");
         $('#dark-mode').prop("checked", true);
     }
-    else{
+    else {
         $(':root').removeClass("dark");
         $('#dark-mode').prop("checked", false);
     }
@@ -27,7 +27,7 @@ $(document).ready(function () {
             localStorage.setItem("theme", 'dark');
             $('#dark-mode').prop("checked", true);
         }
-        else{
+        else {
             localStorage.setItem("theme", 'light');
             $('#dark-mode').prop("checked", false);
         }
@@ -51,23 +51,23 @@ const Navbar = () => {
             <div id="mySidenav" className="sidenav">
                 <a href="/" className="sidenav-logo">Yasir</a>
                 <a href="/" className="closebtn" onClick={closeClick}>&times;</a>
-                <a href="/tech">Tech.</a>
-                <a href="/projects">Project</a>
-                <a href="/contact">Contact</a>
-                <a href="/about">About</a>
+                <a href="#tech">Tech.</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
             </div>
             <div className="logo-container">
                 <a href="/" className="logo">Yasir</a>
             </div>
 
             <div className="navbar-items">
-                <a className="pc-view" href="/tech">Tech.</a>
-                <a className="pc-view" href="/projects">Projects</a>
-                <a className="pc-view" href="/contact">Contact</a>
-                <a className="pc-view" href="/about">About</a>
+                <a className="pc-view" href="#tech">Tech.</a>
+                <a className="pc-view" href="#projects">Projects</a>
+                <a className="pc-view" href="#contact">Contact</a>
+                <a className="pc-view" href="#about">About</a>
 
                 <div className="toggle-container">
-                    <label htmlFor="dark-mode" style={{"display":"none"}}>dark mode switch</label>
+                    <label htmlFor="dark-mode" style={{ "display": "none" }}>dark mode switch</label>
                     <input type="checkbox" id="dark-mode" />
                     <div className="slider round"></div>
                 </div>
