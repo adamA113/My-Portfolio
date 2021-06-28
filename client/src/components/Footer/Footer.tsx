@@ -12,10 +12,10 @@ const Footer = () => {
 
             <div className="footer-items">
                 <div className="main-items">
-                    <a href="/tech" className="fot-item">Tech.</a>
-                    <a href="/projects" className="fot-item">Projects</a>
-                    <a href="/contact" className="fot-item">Contact</a>
-                    <a href="/about" className="fot-item">About</a>
+                    <a href="#tech" className="fot-item">Tech.</a>
+                    <a href="#projects" className="fot-item">Projects</a>
+                    <a href="#contact" className="fot-item">Contact</a>
+                    <a href="#about" className="fot-item">About</a>
                 </div>
                 <div className="soc-icon">
                     <a href="https://www.linkedin.com/in/yasir-tobbileh/" target="_blank" rel="noreferrer" className="fot-item"><i className="fab fa-linkedin fa-2x"></i></a>
