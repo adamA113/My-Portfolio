@@ -16,6 +16,7 @@
   .about-img {
     box-sizing: border-box;
     margin: 20px 35px;
+    align-self: center;
   }
 }
 
@@ -23,6 +24,10 @@
   padding: 20px;
   font-size: 20px;
   text-align: left;
+
+  h3 {
+    margin-bottom: 50px;
+  }
 
   // .my-resume {
   //   border-radius: 20px;
