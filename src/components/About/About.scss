@@ -1,0 +1,98 @@
+@import "../../index";
+
+#about {
+  border-bottom: 1px solid $lightmode-element-border;
+  background-color: $lightmode-background-color;
+  height: 100%;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  width: 100%;
+
+  .about-me,
+  .about-img {
+    box-sizing: border-box;
+    margin: 20px 35px;
+    align-self: center;
+  }
+}
+
+.about-me {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+
+  h3 {
+    margin-bottom: 50px;
+  }
+
+  // .my-resume {
+  //   border-radius: 20px;
+  //   padding: 8px 15px;
+  //   text-decoration: none;
+  //   background-color: #f6f8fa;
+  //   border: 1px solid #21262d;
+  //   color: #ff6984;
+  //   &:hover {
+  //     background-color: lighten(#222d37, 10);
+  //   }
+  // }
+}
+
+.about-img {
+  padding: 20px;
+  img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .about {
+    height: 70vh;
+  }
+  .about-me {
+    width: 500px;
+    .about-img {
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .about-container {
+    grid-template-columns: auto;
+  }
+  .about-img {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 190px;
+      height: 190px;
+    }
+  }
+}
+
+.dark {
+  #about {
+    color: $darkmode-text-color;
+    background-color: $background-color;
+    border-bottom: 1px solid $darkmode-element-border;
+
+    // .my-resume {
+    //   color: #ff6984;
+    //   background-color: #222d37;
+    //   &:hover {
+    //     background-color: lighten(#222d37, 10);
+    //   }
+    // }
+  }
+}
